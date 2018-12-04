@@ -8,15 +8,14 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/titleImageView"
         android:layout_width="0dp"
-        android:layout_height="384dp"
+        android:layout_height="wrap_content"
         android:adjustViewBounds="true"
+        android:contentDescription="Christmas Adventures title image children skiing"
         android:scaleType="fitXY"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/christmasAdventures" />
+        app:srcCompat="@drawable/christmas_adventures" />
 </android.support.constraint.ConstraintLayout>

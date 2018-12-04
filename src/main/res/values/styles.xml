@@ -8,13 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ChristmasTheme" parent="AppTheme" >
-        <item name="colorPrimary">@color/colorAccent</item>
-        <item name="colorAccent">@color/colorPrimary</item>
-        <item name="android:textColorPrimary">@color/text_color_primary</item>
-        <item name="android:colorBackground">@color/background_material_light</item>
-        <item name="android:colorForeground">@color/foreground_material_light</item>
-        <item name="android:navigationBarColor">@color/colorPrimary</item>
-    </style>
-
 </resources>
