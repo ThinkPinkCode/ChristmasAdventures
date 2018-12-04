@@ -33,6 +33,7 @@
         android:id="@+id/nameEditText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
         android:contentDescription="User Name"
         android:ems="10"
         android:hint="Please enter your name"
