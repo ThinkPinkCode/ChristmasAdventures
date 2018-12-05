@@ -24,11 +24,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 name = nameField.getText().toString();
+                startStory();
             }
+
         });
-        
-        startStory();
+
+
     }
+
 
     private void startStory() {
         Intent intent = new Intent(this, StoryActivity.class);
