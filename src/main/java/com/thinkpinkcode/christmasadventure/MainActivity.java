@@ -1,5 +1,6 @@
 package com.thinkpinkcode.christmasadventure;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +10,6 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private EditText nameField;
-    private Button startButton;
     private String name;
 
     @Override
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         nameField = findViewById(R.id.nameEditText);
-        startButton = findViewById(R.id.startButton);
+        Button startButton = findViewById(R.id.startButton);
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 name = nameField.getText().toString();
             }
         });
+        
+        startStory();
+    }
+
+    private void startStory() {
+        Intent intent = new Intent(this, StoryActivity.class);
+        startActivity(intent);
     }
 }
