@@ -1,4 +1,4 @@
-package com.thinkpinkcode.christmasadventure;
+package com.thinkpinkcode.christmasadventures;
 
 import org.junit.Test;
 

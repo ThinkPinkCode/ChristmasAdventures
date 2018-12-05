@@ -1,4 +1,4 @@
-package com.thinkpinkcode.christmasadventure;
+package com.thinkpinkcode.christmasadventures;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.thinkpinkcode.christmasadventure", appContext.getPackageName());
+        assertEquals("com.thinkpinkcode.christmasadventures", appContext.getPackageName());
     }
 }

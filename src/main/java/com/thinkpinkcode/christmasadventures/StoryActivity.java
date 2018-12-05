@@ -1,4 +1,4 @@
-package com.thinkpinkcode.christmasadventure;
+package com.thinkpinkcode.christmasadventures;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

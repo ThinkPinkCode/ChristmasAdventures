@@ -1,11 +1,11 @@
-package com.thinkpinkcode.christmasadventure;
+package com.thinkpinkcode.christmasadventures;
 
 import android.app.Activity;
 import android.app.Application;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
-public class ChristmasAdventureApplication extends Application {
+public class ChristmasAdventuresApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
