@@ -10,7 +10,6 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
 
     private EditText nameField;
-    private String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                name = nameField.getText().toString();
-                startStory();
+                String name = nameField.getText().toString();
+                startStory(name);
             }
 
         });
@@ -33,8 +32,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void startStory() {
+    private void startStory(String name) {
         Intent intent = new Intent(this, StoryActivity.class);
+        intent.putExtra("name",name);
         startActivity(intent);
+
     }
 }
